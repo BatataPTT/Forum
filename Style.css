@@ -1,0 +1,57 @@
+*{
+  margin: 1px;
+  padding: 0px;
+}
+
+.post{
+  display: block;
+  background-color: rgb(225,225,225);
+  height: 200px;
+  max-width: 400px;
+  margin: 15px;
+  text-align-last: center;
+}
+
+.cap{
+  height: 200px;
+  max-width: 400px;
+}
+
+.capa{
+  display: block;
+  background-color: rgb(225,225,225);
+  height: 200px;
+  max-width: 400px;
+  margin: 15px;
+  text-align-last: center;
+  overflow: hidden;
+}
+
+.titulo{
+  color: black;
+}
+
+.mate{
+  color: gray;
+}
+
+.bar{
+  padding: 0px;
+  margin: 0px;
+  background-color: red;
+  height: 50px;
+  text-align: center;
+  color: white;
+}
+
+.foto2{
+  margin-left: 100px;
+}
+
+h4{
+  color: gray;
+}
+
+h3{
+  color: gray;
+}
