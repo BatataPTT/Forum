@@ -1,57 +1,74 @@
 *{
-  margin: 1px;
   padding: 0px;
+  margin: 0px;
+}
+
+body{
+  box-sizing: border;
+  display: flex;
+  align-items: centet;
+  background-color: rgb(225,225,225);
 }
 
 .post{
   display: block;
-  background-color: rgb(225,225,225);
-  height: 200px;
-  max-width: 400px;
+  background-color: white;
+  height: 130px;
+  width: 370px;
+  border-radius: 10px;
   margin: 15px;
   text-align-last: center;
+  margin-top: 80px;
+  margin-left: -385px;
+  padding: 0px;
 }
 
 .cap{
-  height: 200px;
-  max-width: 400px;
-}
-
-.capa{
-  display: block;
   background-color: rgb(225,225,225);
-  height: 200px;
-  max-width: 400px;
-  margin: 15px;
-  text-align-last: center;
-  overflow: hidden;
+  width: 113px;
+  height: 113px;
+  border-radius: 5px;
+  float: left;
+  margin-top: 8px;
+  margin-left: 10px;
 }
 
-.titulo{
+.caixa h1{
+  text-align: center;
   color: black;
 }
 
-.mate{
+.titulo{
+  margin-left: -250px;
+  margin-top: 90px;
+  color: black;
+}
+
+.mini{
+  margin-left: -250px;
+  margin-top: 120px;
   color: gray;
 }
 
 .bar{
-  padding: 0px;
-  margin: 0px;
-  background-color: red;
+  background-color: royalblue;
+  width: 400px;
   height: 50px;
   text-align: center;
+}
+
+a {
+    color: #0060B6;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer;  
+}
+
+.fo{
   color: white;
-}
-
-.foto2{
-  margin-left: 100px;
-}
-
-h4{
-  color: gray;
-}
-
-h3{
-  color: gray;
-}
+  margin-top: 5px;
+  }
